@@ -1,0 +1,28 @@
+@import '../../styles/variables.module.scss';
+
+.search__wrapper {
+  align-items: center;
+  background: $whiteMono;
+  border-radius: 40px;
+  color: $tertiaryColor;
+  display: flex;
+  padding-left: calc(#{$base-spacing} * 2);
+
+  &:focus-within {
+    border: 4px solid $accentPrimaryColor;
+  }
+}
+
+.search__input {
+  appearance: none;
+  background: inherit;
+  border: none;
+  border-radius: inherit;
+  color: $tertiaryColor;
+  font-size: 2rem;
+  padding: calc(#{$base-spacing} * 2);
+
+  &:focus {
+    outline: none;
+  }
+}

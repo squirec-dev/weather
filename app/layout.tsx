@@ -14,10 +14,10 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   authors: {
-    name: "Claire Squire",
+    name: 'Claire Squire',
   },
   description: 'Search for the weather in any city',
-  keywords: ["weather", "search", "local", "city"],
+  keywords: ['weather', 'search', 'local', 'city'],
   title: 'Weather for ducks?',
 }
 
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={roboto.className}>
         <Header />
         <main>

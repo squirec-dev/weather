@@ -1,0 +1,16 @@
+@import '../../styles/variables.module.scss';
+
+.forecast-display__title {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: calc(#{$base-spacing} * 2);
+}
+
+.forecast-display__last-updated {
+	font-size: 12px;
+}
+
+.forecast-display__icon {
+  margin-right: $base-spacing;
+}

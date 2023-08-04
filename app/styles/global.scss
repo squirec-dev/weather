@@ -1,4 +1,4 @@
-@import "./variables.module.scss";
+@import './variables.module.scss';
 @import url('https://fonts.googleapis.com/css2?family=REM:ital@1&display=swap');
 
 * {
@@ -8,45 +8,60 @@
 }
 
 html, body, .root {
-	height: 100%;
-	margin: 0;
+  height: 100%;
+  margin: 0;
   max-width: 100vw;
   overflow-x: hidden;
-	padding: 0;
+  padding: 0;
 }
 
 body {
   background: $whiteMono;
-  color: $blackMono;
+  color: $tertiaryColor;
   display: grid;
-	font-size: $base-font-size;
-	grid-template-rows: auto 1fr auto;
-	margin: 0;
+  font-size: $base-font-size;
+  grid-template-rows: auto 1fr auto;
+  margin: 0;
 }
 
 header {
-	background-color: $primaryColor;
-	color: $blackMono;
-	font-family: 'REM', sans-serif;
-}
-
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: calc(#{$base-spacing} * 2) calc(#{$base-spacing} * 4);
-}
-
-footer {
-	background-color: $tertiaryColor;
-	color: $whiteMono;
+  background-color: $secondaryColor;
+  color: $blackMono;
   font-family: 'REM', sans-serif;
-}
-
-a {
-  color: $accentTextColor;
-  text-decoration: none;
 }
 
 main {
   background: $whiteMono;
 }
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: calc(#{$base-spacing} * 2) calc(#{$base-spacing} * 4);
+}
+
+footer {
+  background-color: $tertiaryColor;
+  color: $whiteMono;
+  font-family: 'REM', sans-serif;
+}
+
+a {
+  color: $accentPrimaryColor;
+  text-decoration: none;
+  border-bottom: 2px dashed transparent;
+
+  &:hover {
+	border-color: $accentPrimaryColor;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+  li {
+    align-items: center;
+    display: flex;
+	  margin-bottom: calc(#{$base-spacing} * 2);
+  }

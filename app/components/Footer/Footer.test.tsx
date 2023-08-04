@@ -12,6 +12,6 @@ describe('components/Footer', () => {
 
   it('renders authorship information', () => {
     const { getByRole } = render(mockComponent());
-    expect(getByRole('contentinfo').textContent).toBe("C. Squire");
+    expect(getByRole('contentinfo').textContent).toBe('C. Squire');
   })
 })

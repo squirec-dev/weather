@@ -2,7 +2,7 @@
 $paris-daisy: #ffe963;
 $bittersweet: #ff6d6d;
 $monte-carlo: #8ad0ce;
-$onahau: #bdf7ff;
+$sea-green: #6ea6a4;
 $river-bed: #4b595e;
 
 // Monotones
@@ -10,11 +10,11 @@ $shark: #1e2325;
 $alabastor: #fbfbfb;
 
 // Exported names
-$accentBgColor: $paris-daisy;
-$accentTextColor: $bittersweet;
+$accentPrimaryColor: $paris-daisy;
+$accentSecondaryColor: $bittersweet;
 $blackMono: $shark; 
 $primaryColor: $monte-carlo;
-$secondaryColor: $onahau;
+$secondaryColor: $sea-green;
 $tertiaryColor: $river-bed;
 $whiteMono: $alabastor;
 
@@ -23,8 +23,8 @@ $base-spacing: 8px;
 $base-font-size: 16px; 
  
 :export {
-  accentBgColor: $accentBgColor;
-  accentTextColor: $accentTextColor;
+  accentPrimaryColor: $accentPrimaryColor;
+  accentSecondaryColor: $accentSecondaryColor;
   blackMono: $blackMono; 
   primaryColor: $primaryColor;
   secondaryColor: $secondaryColor;

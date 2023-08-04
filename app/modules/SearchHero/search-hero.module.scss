@@ -1,0 +1,21 @@
+@import '../../styles/variables.module.scss';
+
+.hero {
+	align-items: center;
+	background-color: $monte-carlo;
+	color: $whiteMono;
+	display: flex;
+	justify-content: center;
+	overflow-y: hidden;
+	transition: height .25s linear;
+}
+
+.hero--collapsed {
+  @extend .hero;
+  height: 150px;
+}
+
+.hero--expanded {
+  @extend .hero;
+  height: 50vh;
+}

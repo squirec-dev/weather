@@ -1,11 +1,15 @@
-@import "../../styles/variables.module.scss";
+@import '../../styles/variables.module.scss';
 
-.author {
+.footer__author {
   align-items: center;
   display: flex;
   justify-content: flex-end;
 }
 
-.author__icon {
+.footer__author-icon {
   margin-right: $base-spacing;
+}
+
+.footer__author-spacer {
+  margin: 0 $base-spacing;
 }
