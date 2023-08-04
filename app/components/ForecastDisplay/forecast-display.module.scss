@@ -14,3 +14,10 @@
 .forecast-display__icon {
   margin-right: $base-spacing;
 }
+
+.forecast-display__duck-warning {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: calc(#{$base-spacing} * 2);
+}
