@@ -1,4 +1,5 @@
 @import "./variables.module.scss";
+@import url('https://fonts.googleapis.com/css2?family=REM:ital@1&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,22 +7,46 @@
   margin: 0;
 }
 
-html,
-body {
+html, body, .root {
+	height: 100%;
+	margin: 0;
   max-width: 100vw;
   overflow-x: hidden;
+	padding: 0;
 }
 
 body {
-  color: $blackMono;
   background: $whiteMono;
+  color: $blackMono;
+  display: grid;
+	font-size: $base-font-size;
+	grid-template-rows: auto 1fr auto;
+	margin: 0;
+}
+
+header {
+	background-color: $primaryColor;
+	color: $blackMono;
+	font-family: 'REM', sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: calc(#{$base-spacing} * 2) calc(#{$base-spacing} * 4);
+}
+
+footer {
+	background-color: $tertiaryColor;
+	color: $whiteMono;
+  font-family: 'REM', sans-serif;
 }
 
 a {
-  color: inherit;
+  color: $accentTextColor;
   text-decoration: none;
 }
 
 main {
-  background: $accentBgColor;
+  background: $whiteMono;
 }

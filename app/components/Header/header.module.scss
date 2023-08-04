@@ -1,0 +1,12 @@
+@import "../../styles/variables.module.scss";
+
+.logo {
+  align-items: center;
+  display: flex;
+  font-size: 1rem;
+  justify-content: flex-start;
+}
+
+.logo__icon {
+  margin-right: $base-spacing;
+}

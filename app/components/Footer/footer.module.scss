@@ -1,0 +1,11 @@
+@import "../../styles/variables.module.scss";
+
+.author {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.author__icon {
+  margin-right: $base-spacing;
+}
