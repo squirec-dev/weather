@@ -1,3 +1,4 @@
 export interface SearchHeroProps {
-  isExpanded: boolean
+  error?: string; 
+  isExpanded: boolean;
 }

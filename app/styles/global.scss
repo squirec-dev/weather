@@ -65,3 +65,10 @@ ul {
     display: flex;
 	  margin-bottom: calc(#{$base-spacing} * 2);
   }
+
+.highlight-text {
+  color: $accentSecondaryColor;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 $base-spacing;
+}
