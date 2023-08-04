@@ -2,9 +2,9 @@ import { ReactElement } from "react";
 
 const Home = (): ReactElement => {
   return (
-    <div>
-      page
-    </div>
+    <h1>
+      Page
+    </h1>
   )
 }
 
