@@ -1,0 +1,29 @@
+// Colourscheme
+$paris-daisy: #ffe963;
+$bittersweet: #ff6d6d;
+$monte-carlo: #8ad0ce;
+$onahau: #bdf7ff;
+$river-bed: #4b595e;
+
+// Monotones
+$shark: #1e2325;
+$alabastor: #fbfbfb;
+
+// Exported names
+$accentBgColor: $paris-daisy;
+$accentTextColor: $bittersweet;
+$blackMono: $shark; 
+$primaryColor: $monte-carlo;
+$secondaryColor: $onahau;
+$tertiaryColor: $river-bed;
+$whiteMono: $alabastor;
+ 
+:export {
+  accentBgColor: $accentBgColor;
+  accentTextColor: $accentTextColor;
+  blackMono: $blackMono; 
+  primaryColor: $primaryColor;
+  secondaryColor: $secondaryColor;
+  tertiaryColor: $tertiaryColor;
+  whiteMono: $whiteMono;
+}

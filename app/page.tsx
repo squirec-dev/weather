@@ -1,8 +1,8 @@
-import styles from './page.module.css'
+import { ReactElement } from "react";
 
-const Home = () => {
+const Home = (): ReactElement => {
   return (
-    <div className={styles.main}>
+    <div>
       page
     </div>
   )
