@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import Header from './index';
 
-describe('components/Footer', () => {
+describe('components/Heading', () => {
   const mockComponent = (
     props?: Record<string, any>,
   ) => {
@@ -14,7 +14,7 @@ describe('components/Footer', () => {
     const { getByRole } = render(mockComponent());
     expect(getByRole('img', { name: 'logo' })).toBeTruthy();
     expect(
-      getByRole('heading', {level: 1}).textContent
-    ).toBe('Weather for ducks?');
+      getByRole('heading', {level: 1}
+    ).textContent).toBe('Weather for ducks?');
   })
 })
